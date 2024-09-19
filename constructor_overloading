@@ -1,0 +1,30 @@
+public class OverloadingExample {
+
+    
+    public void  OverloadingExample(int a) {
+        System.out.println("Argument: " + a);
+    }
+
+    
+    public void  OverloadingExample(int a, int b) {
+        System.out.println("Arguments: " + a + ", " + b);
+    }
+
+    
+    public void  OverloadingExample(String a) {
+        System.out.println("String Argument: " + a);
+    }
+
+    public static void main(String[] args) {
+        OverloadingExample obj = new OverloadingExample();
+        
+        
+        obj.OverloadingExample(5);
+        
+        
+        obj.OverloadingExample(10, 20);
+        
+        obj.OverloadingExample("constructor Overloading Example");
+    }
+    }
+
