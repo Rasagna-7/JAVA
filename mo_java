@@ -1,0 +1,29 @@
+public class OverloadingExample {
+
+    
+    public void display(int a) {
+        System.out.println("Argument: " + a);
+    }
+
+    
+    public void display(int a, int b) {
+        System.out.println("Arguments: " + a + ", " + b);
+    }
+
+    
+    public void display(String a) {
+        System.out.println("String Argument: " + a);
+    }
+
+    public static void main(String[] args) {
+        OverloadingExample obj = new OverloadingExample();
+        
+        
+        obj.display(5);
+        
+        
+        obj.display(10, 20);
+        
+        obj.display("Method Overloading Example");
+    }
+    }
