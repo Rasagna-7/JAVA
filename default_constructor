@@ -1,0 +1,11 @@
+public class main{
+    int x;
+    public main (){
+        x=6;
+    }
+    public static void main(String[]args)
+    { main myobj =new main();
+    System.out.println(myobj.x);
+
+    }
+}
